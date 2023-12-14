@@ -65,7 +65,7 @@ def handle_userinput(replies, queries):
 
 
 def main():
-    # openai.api_key = "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"
+    
     openai.api_key=st.secrets["OPENAI_KEY"]
     queries=[]
     conversation=""
